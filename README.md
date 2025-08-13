@@ -1,6 +1,6 @@
 # Daily Bible Verse - buat dedek wulan yey💗💗💗
 
-Aplikasi web Progressive Web App (PWA) yang dibuat khusus untuk Anna Amalia Wulandari sebagai hadiah spiritual penuh kasih. Menampilkan ayat-ayat Alkitab Katolik harian dengan desain forest theme yang menenangkan.
+Aplikasi web Progressive Web App (PWA) yang dibuat khusus untuk dedek wulann sebagai hadiah spiritual penuh kasih. Menampilkan ayat-ayat Alkitab Katolik harian dengan desain forest theme yang menenangkan.
 
 ## ✨ Features
 
