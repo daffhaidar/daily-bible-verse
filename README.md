@@ -6,9 +6,8 @@ Aplikasi web Progressive Web App (PWA) yang dibuat khusus untuk Anna Amalia Wula
 
 - 📱 **Progressive Web App (PWA)** - Install sebagai widget di home screen
 - 🌲 **Forest Theme** - Background natural yang menenangkan
-- 📖 **30+ Ayat Alkitab Katolik** - Koleksi ayat inspiratif dan motivasi
-- 🔄 **Random Daily Verses** - Ayat berbeda setiap hari secara otomatis
-- 💝 **Personal Touch** - Sapaan khusus untuk "dek Wulan"
+- 📖 **400+ Ayat Alkitab Katolik** - Koleksi lengkap untuk setahun penuh
+- 🔄 **Smart Daily Algorithm** - Ayat acak tapi konsisten, coverage 365+ hari tanpa repeat
 - 📋 **Copy to Clipboard** - Mudah berbagi ayat dengan orang lain
 - 🌐 **Offline Support** - Bekerja tanpa internet setelah install
 - 📱 **Mobile Optimized** - Responsive design untuk semua perangkat

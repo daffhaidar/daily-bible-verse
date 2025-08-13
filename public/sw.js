@@ -133,7 +133,7 @@ self.addEventListener("push", (event) => {
   console.log("Service Worker: Push notification received");
 
   const options = {
-    body: "Ayat harian baru tersedia untuk dek Wulan!",
+    body: "Ayat harian baru tersedia untuk dedek wulan!",
     icon: "/icon-192.svg",
     badge: "/icon-72.svg",
     tag: "daily-verse",

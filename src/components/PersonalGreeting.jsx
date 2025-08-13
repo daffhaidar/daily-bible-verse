@@ -1,7 +1,7 @@
 import { useState, useEffect, memo } from "react";
 import { getTimeOfDay, getGreetingMessage } from "../utils/dateUtils.js";
 
-const PersonalGreeting = memo(function PersonalGreeting({ name = "dedek wulan" }) {
+const PersonalGreeting = memo(function PersonalGreeting({ name = "dedek wulan yey💗💗" }) {
   const [greeting, setGreeting] = useState("");
   const [timeOfDay, setTimeOfDay] = useState("");
 

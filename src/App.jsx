@@ -14,6 +14,11 @@ import { useNetworkStatus } from "./hooks/useNetworkStatus.js";
 import { localStorage as offlineStorage } from "./utils/offlineStorage.js";
 import { performanceMonitor } from "./utils/performance.js";
 
+// Import testing utilities in development
+if (process.env.NODE_ENV === "development") {
+  import("./utils/verseTestUtils.js");
+}
+
 function App() {
   const [currentVerse, setCurrentVerse] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -41,6 +46,16 @@ function App() {
         setCurrentVerse(verse);
         performanceMonitor.mark("verse-load-end");
         performanceMonitor.measure("verse-load-time", "verse-load-start", "verse-load-end");
+
+        // Debug info for development
+        if (process.env.NODE_ENV === "development") {
+          console.log("📖 Daily Verse loaded:", {
+            date: today.toDateString(),
+            verse: `${verse.book} ${verse.chapter}:${verse.verse}`,
+            category: verse.category,
+            id: verse.id,
+          });
+        }
       } catch (error) {
         console.error("Error loading daily verse:", error);
         // Fallback verse will be handled by getDailyVerse
