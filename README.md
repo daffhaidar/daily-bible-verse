@@ -6,7 +6,7 @@ Aplikasi web Progressive Web App (PWA) yang dibuat khusus untuk dedek wulann seb
 
 - 📱 **Progressive Web App (PWA)** - Install sebagai widget di home screen
 - 🌲 **Forest Theme** - Background natural yang menenangkan
-- 📖 **400+ Ayat Alkitab Katolik** - Koleksi lengkap untuk setahun penuh
+- 📖 **400+ Ayat Alkitab Katolik** - Koleksi lengkap sebagai hadiah spiritual
 - 🔄 **Smart Daily Algorithm** - Ayat acak tapi konsisten, coverage 365+ hari tanpa repeat
 - 📋 **Copy to Clipboard** - Mudah berbagi ayat dengan orang lain
 - 🌐 **Offline Support** - Bekerja tanpa internet setelah install
